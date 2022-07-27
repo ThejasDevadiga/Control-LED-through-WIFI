@@ -1,0 +1,43 @@
+.container{
+  justify-content: center;
+  background: rgb(202, 157, 157);
+padding: 5rem;
+
+}
+.buttonOn {
+  background: rgb(11, 179, 75);
+  color:rgb(14, 45, 45);
+  font-size:medium;
+  border: 0px;
+  height: 10vh;
+  margin-right: 5rem;
+}
+.buttonOn:hover{
+  background: rgb(8, 116, 49);
+  font-size:large;
+  color:rgb(153, 153, 92);
+  box-shadow: 3px 4px 20px rgb(0, 255, 72);
+}
+
+.buttonOff {
+  background: rgb(223, 18, 11);
+  color:rgb(14, 45, 45);
+  font-size:medium;
+  border: 0px;
+  height: 10vh;
+}
+.buttonOff:hover{
+  background: rgb(165, 33, 13);
+  font-size:large;
+  color:rgb(153, 153, 92);
+  box-shadow: 3px 4px 20px rgb(255, 0, 0);
+}
+
+
+.controls{
+ justify-content: center;
+
+}
+p{
+  font-size: x-large;
+}
