@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THEJAS DEVADIGA</title>
+    <link rel="stylesheet" href="./style.css" class="css" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = {
+        apiKey: "**********************",
+        authDomain: "*************",
+        databaseURL:
+          "**********************************",
+        projectId: "*****************",
+        storageBucket: "*********************",
+        messagingSenderId: "***********",
+        appId: "*************",
+        measurementId: "******************",
+      };
+
+      firebase.initializeApp(firebaseConfig);
+
+      var database = firebase.database();
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>LED CONTROLLER using WIFI</h1>
+      <hr />
+      <br />
+      <div class="controls">
+
+
+        <p>LED ONE STATE: <span id="reading-led-one"> </span></p>
+        <button type="button" class="buttonOn" id="led-one-OnState">
+          <strong> Turn ON LED</strong></button
+        ><button type="button" class="buttonOff" id="led-one-OffState">
+          <strong> Turn OFF LED </strong>
+        </button>
+
+
+        <p>LED TWO STATE: <span id="reading-led-two"> </span></p>
+        <button type="button" class="buttonOn" id="led-two-OnState">
+          <strong> Turn ON LED </strong></button
+        ><button type="button" class="buttonOff" id="led-two-OffState">
+          <strong>Turn OFF LED </strong>
+        </button>
+
+
+        <p>LED THREE STATE: <span id="reading-led-three"> </span></p>
+        <button type="button" class="buttonOn" id="led-three-OnState">
+          <strong>Turn ON LED </strong></button
+        ><button type="button" class="buttonOff" id="led-three-OffState">
+          <strong> Turn OFF LED</strong>
+        </button>
+
+        
+      </div>
+      <script src="app.js" defer></script>
+    </div>
+  </body>
+</html>
